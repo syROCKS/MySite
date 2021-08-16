@@ -95,8 +95,8 @@ hr {
     border-style: none;
     border-top-style: dotted;
     border-color: #EAF6F6;
-    border-width: 8px;
-    width: 5%;
+    border-width: 0.5em;
+    width: 7.5%;
 }
 
 .imgProfile {
@@ -190,4 +190,94 @@ a:hover {
     font-size: 0.75rem;
     margin-top: 3rem;
     font-weight: normal;
+}
+
+@media (max-width: 1028px) {
+    h1 {
+        margin: 20vh auto -1rem auto;
+        font-size: 7rem;
+    }
+
+    h2 {
+        font-size: 5rem;
+    }
+
+    h3 {
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 1.725rem;
+    }
+
+    .top-cloud {
+        position: absolute;
+        width: 25%;
+        height: auto;
+        right: 6rem;
+        top: 15rem;
+    }
+
+    .bottom-cloud {
+        position: absolute;
+        width: 25%;
+        height: auto;
+        left: 5rem;
+        top: 55rem;
+    }
+
+    .profile {
+        width: 70%;
+        margin: auto;
+    }
+
+    .imgProfile {
+        width: 35%;
+        height: auto;
+    }
+
+    .skill {
+        width: 35%;
+        height: auto;
+    }
+
+    .img1 {
+        float: none;
+    }
+
+    .img2 {
+        float: none;
+        margin-left: 2rem;
+    }
+
+    .skill-row {
+        width: 70%;
+        text-align: center;
+        line-height: 2;
+    }
+
+    .contact-me {
+        width: 70%;
+        margin: auto;
+    }
+
+    .btn {
+       font-size: 2.5rem;
+       padding: 1.5rem 3rem;
+    }
+
+    .bottom-container {
+        padding: 4%;
+    }
+
+    a {
+        font-size: 1.5rem;
+    }
+
+    .credits {
+        color: #EAF6F6;
+        font-size: 0.5rem;
+        margin-top: 3rem;
+        font-weight: normal;
+    }
 }
